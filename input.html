@@ -129,8 +129,12 @@
                     </div>
                     <div class="form-row">
                         <div class="form-group">
-                            <label for="cholesterol_level">Cholesterol Level (mg/dL)</label>
-                            <input type="number" id="cholesterol_level" name="cholesterol_level" min="100" max="400" step="0.1" placeholder="e.g., 200.0" required>
+                             <label for="cholesterol_level">Cholesterol Level (mg/dL)</label>
+                           <select id="cholesterol_level" name="cholesterol_level" required>
+                          <option value="">Select Level</option>
+                          <option value="<=200">Less than or equal to 200</option>
+                          <option value=">200">More than 200</option>
+</select>
                             <small>Normal range: 150-200 mg/dL</small>
                         </div>
                     </div>
