@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Stroke Prediction & Diagnosis - StrokePredict AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Advanced AI-powered brain stroke prediction and diagnosis system using machine learning for accurate health assessment.">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="brain-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7.5L14.5 6.5C14.6 6.2 14.7 5.9 14.7 5.5C14.7 3.6 13.4 2 11.8 2C10.2 2 8.9 3.6 8.9 5.5C8.9 5.9 9 6.2 9.1 6.5L8.6 7.5L3 7V9L8.6 8.5L9.1 9.5C9 9.8 8.9 10.1 8.9 10.5C8.9 12.4 10.2 14 11.8 14C13.4 14 14.7 12.4 14.7 10.5C14.7 10.1 14.6 9.8 14.5 9.5L15 8.5L21 9Z"/>
+                </svg>
+                <span>StrokePredict AI</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Advanced Brain Stroke Prediction & Diagnosis</h1>
+                    <p class="hero-subtitle">
+                        Leverage cutting-edge machine learning algorithms to assess your stroke risk based on comprehensive health indicators. Our AI-powered system analyzes multiple health parameters using ExtraTreeClassifier technology to provide accurate risk assessment and personalized recommendations.
+                    </p>
+                    <div class="hero-features">
+                        <div class="feature">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                            </svg>
+                            <span>ML-Powered Analysis</span>
+                        </div>
+                        <div class="feature">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                            <span>Instant Results</span>
+                        </div>
+                        <div class="feature">
+                            <svg class="feature-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"/>
+                            </svg>
+                            <span>Secure & Private</span>
+                        </div>
+                    </div>
+                    <button class="cta-button" onclick="startPrediction()">
+                        <span>Start Prediction</span>
+                        <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 7l5 5-5 5M6 7l5 5-5 5"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="hero-visual">
+                    <div class="medical-card">
+                        <div class="card-header">
+                            <h3>Health Assessment</h3>
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                            </svg>
+                        </div>
+                        <div class="card-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Age</span>
+                                <span class="metric-value">45</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">BMI</span>
+                                <span class="metric-value">24.3</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Glucose</span>
+                                <span class="metric-value">110</span>
+                            </div>
+                        </div>
+                        <div class="risk-indicator low">
+                            <span>Risk Level: Low</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How Our AI System Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Input Health Data</h3>
+                        <p>Provide your comprehensive health information including age, medical history, lifestyle factors, BMI, glucose levels, cholesterol, and other vital statistics based on clinical research.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>AI Analysis</h3>
+                        <p>Our ExtraTreeClassifier algorithm analyzes your data using patterns learned from thousands of medical records, considering multiple risk factors and their interactions.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Get Results</h3>
+                        <p>Receive instant stroke risk assessment with detailed risk factor analysis and personalized recommendations for prevention and lifestyle improvements.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2>Advanced Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-large">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Machine Learning Models</h3>
+                    <p>Utilizes advanced algorithms including Random Forest, K-Nearest Neighbor, SVM, ANN, Decision Tree, and Naive Bayes for comprehensive analysis.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 17v-2m3 2v-4m3 4v-6m2 10H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Comprehensive Assessment</h3>
+                    <p>Analyzes 13 key health parameters including demographics, medical history, lifestyle factors, and biomarkers for accurate prediction.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-large">
+                        <svg viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </div>
+                    <h3>Evidence-Based Prevention</h3>
+                    <p>Provides personalized prevention strategies and lifestyle recommendations based on current medical guidelines and research.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Check Your Stroke Risk?</h2>
+                <p>Take the first step towards better health with our comprehensive AI-powered assessment. Early detection and prevention can save lives.</p>
+                <div class="cta-buttons">
+                    <button class="cta-button secondary" onclick="startPrediction()">
+                        <span>Begin Assessment</span>
+                        <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M13 7l5 5-5 5M6 7l5 5-5 5"/>
+                        </svg>
+                    </button>
+                    <button class="cta-button tertiary" onclick="showPrecautions()">
+                        <span>View Prevention Guide</span>
+                        <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="nav-brand">
+                        <svg class="brain-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7.5L14.5 6.5C14.6 6.2 14.7 5.9 14.7 5.5C14.7 3.6 13.4 2 11.8 2C10.2 2 8.9 3.6 8.9 5.5C8.9 5.9 9 6.2 9.1 6.5L8.6 7.5L3 7V9L8.6 8.5L9.1 9.5C9 9.8 8.9 10.1 8.9 10.5C8.9 12.4 10.2 14 11.8 14C13.4 14 14.7 12.4 14.7 10.5C14.7 10.1 14.6 9.8 14.5 9.5L15 8.5L21 9Z"/>
+                        </svg>
+                        <span>StrokePredict AI</span>
+                    </div>
+                    <p>Advanced AI-powered stroke prediction and prevention system for better health outcomes.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Disclaimer</h4>
+                    <p>This tool is for educational and informational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult with a qualified healthcare provider.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

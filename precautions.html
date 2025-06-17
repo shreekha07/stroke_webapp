@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stroke Prevention Guide - StrokePredict AI</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <svg class="brain-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7.5L14.5 6.5C14.6 6.2 14.7 5.9 14.7 5.5C14.7 3.6 13.4 2 11.8 2C10.2 2 8.9 3.6 8.9 5.5C8.9 5.9 9 6.2 9.1 6.5L8.6 7.5L3 7V9L8.6 8.5L9.1 9.5C9 9.8 8.9 10.1 8.9 10.5C8.9 12.4 10.2 14 11.8 14C13.4 14 14.7 12.4 14.7 10.5C14.7 10.1 14.6 9.8 14.5 9.5L15 8.5L21 9Z"/>
+                </svg>
+                <span>StrokePredict AI</span>
+            </div>
+            <button class="nav-back" onclick="goHome()">
+                <svg viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
+                </svg>
+                Back to Home
+            </button>
+        </div>
+    </nav>
+
+    <!-- Precautions Section -->
+    <section class="precautions-section">
+        <div class="container">
+            <div class="precautions-header">
+                <h1>Comprehensive Stroke Prevention Guide</h1>
+                <p>Evidence-based strategies to reduce your risk of stroke and maintain optimal brain health.</p>
+            </div>
+
+            <!-- Emergency Signs -->
+            <div class="emergency-section">
+                <h2 class="emergency-title">
+                    <svg class="emergency-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                    </svg>
+                    Know the FAST Signs of Stroke
+                </h2>
+                <div class="fast-signs">
+                    <div class="fast-card">
+                        <div class="fast-letter">F</div>
+                        <div class="fast-content">
+                            <h3>Face Drooping</h3>
+                            <p>Does one side of the face droop or is it numb? Ask the person to smile. Is the person's smile uneven or lopsided?</p>
+                        </div>
+                    </div>
+                    <div class="fast-card">
+                        <div class="fast-letter">A</div>
+                        <div class="fast-content">
+                            <h3>Arm Weakness</h3>
+                            <p>Is one arm weak or numb? Ask the person to raise both arms. Does one arm drift downward?</p>
+                        </div>
+                    </div>
+                    <div class="fast-card">
+                        <div class="fast-letter">S</div>
+                        <div class="fast-content">
+                            <h3>Speech Difficulty</h3>
+                            <p>Is speech slurred, are they hard to understand, or are they using strange words or unable to speak?</p>
+                        </div>
+                    </div>
+                    <div class="fast-card">
+                        <div class="fast-letter">T</div>
+                        <div class="fast-content">
+                            <h3>Time to Call 911</h3>
+                            <p>If the person shows any of these symptoms, time is important. Call 911 immediately and note the time symptoms first appeared.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Prevention Categories -->
+            <div class="prevention-categories">
+                <!-- Lifestyle Modifications -->
+                <div class="category-section">
+                    <h2>
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                        </svg>
+                        Lifestyle Modifications
+                    </h2>
+                    <div class="prevention-grid">
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                                </svg>
+                                <h3>Regular Exercise</h3>
+                            </div>
+                            <ul>
+                                <li>Aim for at least 150 minutes of moderate aerobic activity weekly</li>
+                                <li>Include strength training exercises 2+ days per week</li>
+                                <li>Start slowly and gradually increase intensity</li>
+                                <li>Choose activities you enjoy: walking, swimming, cycling</li>
+                                <li>Consult your doctor before starting new exercise programs</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M3 6h18l-2 13H5L3 6zm0 0L2 4H1m15 2v6a2 2 0 11-4 0v-6"/>
+                                </svg>
+                                <h3>Healthy Diet</h3>
+                            </div>
+                            <ul>
+                                <li>Follow the Mediterranean or DASH diet patterns</li>
+                                <li>Eat plenty of fruits, vegetables, and whole grains</li>
+                                <li>Choose lean proteins: fish, poultry, beans</li>
+                                <li>Limit saturated fats, trans fats, and cholesterol</li>
+                                <li>Reduce sodium intake to less than 2,300mg daily</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728L5.636 5.636m12.728 12.728L12 21l-6.364-6.364M12 3l6.364 6.364"/>
+                                </svg>
+                                <h3>Quit Smoking</h3>
+                            </div>
+                            <ul>
+                                <li>Smoking doubles your stroke risk</li>
+                                <li>Seek professional help or smoking cessation programs</li>
+                                <li>Use nicotine replacement therapy if recommended</li>
+                                <li>Avoid secondhand smoke exposure</li>
+                                <li>Benefits begin immediately after quitting</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9.5 3.5v5h5v-5a1.5 1.5 0 00-3 0v.5h-2v-.5a1.5 1.5 0 00-3 0z"/>
+                                </svg>
+                                <h3>Limit Alcohol</h3>
+                            </div>
+                            <ul>
+                                <li>Men: No more than 2 drinks per day</li>
+                                <li>Women: No more than 1 drink per day</li>
+                                <li>Binge drinking significantly increases stroke risk</li>
+                                <li>Consider alcohol-free days each week</li>
+                                <li>If you don't drink, don't start</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Medical Management -->
+                <div class="category-section">
+                    <h2>
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 7.172V5L8 4z"/>
+                        </svg>
+                        Medical Management
+                    </h2>
+                    <div class="prevention-grid">
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+                                </svg>
+                                <h3>Blood Pressure Control</h3>
+                            </div>
+                            <ul>
+                                <li>Target: Less than 120/80 mmHg for most adults</li>
+                                <li>Monitor regularly at home</li>
+                                <li>Take prescribed medications as directed</li>
+                                <li>Maintain healthy weight to help control BP</li>
+                                <li>Reduce stress through relaxation techniques</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <h3>Cholesterol Management</h3>
+                            </div>
+                            <ul>
+                                <li>Target LDL cholesterol: Less than 100 mg/dL</li>
+                                <li>Get lipid panel tested every 4-6 years</li>
+                                <li>Take statins if prescribed by your doctor</li>
+                                <li>Choose foods low in saturated and trans fats</li>
+                                <li>Include omega-3 rich foods in your diet</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                                </svg>
+                                <h3>Diabetes Control</h3>
+                            </div>
+                            <ul>
+                                <li>Maintain HbA1c levels below 7%</li>
+                                <li>Monitor blood glucose regularly</li>
+                                <li>Follow prescribed medication regimen</li>
+                                <li>Maintain consistent meal timing</li>
+                                <li>Work with healthcare team for optimal management</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                                </svg>
+                                <h3>Atrial Fibrillation</h3>
+                            </div>
+                            <ul>
+                                <li>Take anticoagulants if prescribed</li>
+                                <li>Monitor for irregular heartbeat</li>
+                                <li>Manage underlying heart conditions</li>
+                                <li>Regular cardiology follow-ups</li>
+                                <li>Lifestyle modifications to support heart health</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Risk Factors -->
+                <div class="category-section">
+                    <h2>
+                        <svg class="category-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                        Additional Prevention Strategies
+                    </h2>
+                    <div class="prevention-grid">
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                                </svg>
+                                <h3>Weight Management</h3>
+                            </div>
+                            <ul>
+                                <li>Maintain BMI between 18.5-24.9</li>
+                                <li>Lose weight gradually (1-2 pounds per week)</li>
+                                <li>Focus on waist circumference reduction</li>
+                                <li>Combine diet and exercise for best results</li>
+                                <li>Seek professional guidance if needed</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"/>
+                                </svg>
+                                <h3>Quality Sleep</h3>
+                            </div>
+                            <ul>
+                                <li>Aim for 7-9 hours of sleep nightly</li>
+                                <li>Maintain consistent sleep schedule</li>
+                                <li>Treat sleep apnea if diagnosed</li>
+                                <li>Create a comfortable sleep environment</li>
+                                <li>Avoid caffeine and screens before bedtime</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9.663 17h4.673M12 3v1m6.364-.636l-.707.707m2.343 5.929h-1m-2.343 5.929l-.707-.707M12 20v1m-6.364-.636l.707-.707M2 12h1m2.343-5.929l.707.707"/>
+                                </svg>
+                                <h3>Stress Management</h3>
+                            </div>
+                            <ul>
+                                <li>Practice relaxation techniques daily</li>
+                                <li>Try meditation, yoga, or deep breathing</li>
+                                <li>Maintain social connections</li>
+                                <li>Engage in hobbies and activities you enjoy</li>
+                                <li>Seek counseling if stress becomes overwhelming</li>
+                            </ul>
+                        </div>
+
+                        <div class="prevention-card">
+                            <div class="card-header">
+                                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                                </svg>
+                                <h3>Regular Check-ups</h3>
+                            </div>
+                            <ul>
+                                <li>Annual physical examinations</li>
+                                <li>Regular blood pressure monitoring</li>
+                                <li>Cholesterol and diabetes screening</li>
+                                <li>Discuss family history with doctor</li>
+                                <li>Stay up-to-date with vaccinations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Action Section -->
+            <div class="action-section">
+                <div class="action-content">
+                    <h2>Take Action Today</h2>
+                    <p>Prevention is the best medicine. Start with small changes and build healthy habits over time.</p>
+                    <div class="action-buttons">
+                        <button class="cta-button" onclick="retakeAssessment()">
+                            <span>Check Your Risk</span>
+                            <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M13 7l5 5-5 5M6 7l5 5-5 5"/>
+                            </svg>
+                        </button>
+                        <button class="cta-button secondary" onclick="goHome()">
+                            <span>Learn More</span>
+                            <svg class="button-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
